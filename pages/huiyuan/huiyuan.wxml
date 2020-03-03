@@ -1,0 +1,84 @@
+<view class="bg1" mode="widthFix"></view>
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <text class="score">积分:</text>
+    </block>
+  </view>
+</view>
+
+<view class="yue">
+<button class="yue1" style="width:100vw" hover-class="yue2">余额</button>
+</view>
+
+<view class="user-menu">
+    <view class="item">
+      <navigator url="/pages/mine/order/order" class="a">
+        <text class="icon order"></text>
+        <text class="txt">我的订单</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="/pages/ucenter/coupon/coupon" class="a">
+        <text class="icon coupon"></text>
+        <text class="txt">优惠券</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="url" class="a">
+        <text class="icon gift"></text>
+        <text class="txt">礼品卡</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="/pages/ucenter/collect/collect" class="a">
+        <text class="icon address"></text>
+        <text class="txt">我的收藏</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="/pages/ucenter/footprint/footprint" class="a">
+        <text class="icon security"></text>
+        <text class="txt">我的足迹</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="url" class="a">
+        <text class="icon kefu"></text>
+        <text class="txt">会员福利</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="../address/address" class="a">
+        <text class="icon address"></text>
+        <text class="txt">地址管理</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="url" class="a">
+        <text class="icon security"></text>
+        <text class="txt">账号安全</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <navigator url="url" class="a">
+        <text class="icon kefu"></text>
+        <text class="txt">联系客服</text>
+      </navigator>
+    </view>
+    <view class="item item-bottom">
+      <navigator url="url" class="a">
+        <text class="icon help"></text>
+        <text class="txt">帮助中心</text>
+      </navigator>
+    </view>
+    <view class="item item-bottom">
+      <navigator url="/pages/ucenter/feedback/feedback" class="a">
+        <text class="icon feedback"></text>
+        <text class="txt">意见反馈</text>
+      </navigator>
+    </view>
+  </view>

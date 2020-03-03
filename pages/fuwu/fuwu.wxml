@@ -1,0 +1,4 @@
+<!--pages/fuwu/fuwu.wxml-->
+<view class="bg1" mode="widthFix"></view>
+<image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1204884009,1444754737&fm=26&gp=0.jpg" class="img1"></image>
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1582038871481&di=503b1b57aef3d4e3d856f686c8601a26&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F9e3df8dcd100baa1a0573e824c10b912c8fc2e8b.jpg" class="img2"></image>
